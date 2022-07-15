@@ -1,6 +1,12 @@
 // Import stylesheets
 import './style.css';
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+const input = document.getElementById('textInput');
+
+const result = document.getElementById('result');
+
+input.addEventListener('input', (ev) => {
+  console.log(input.value);
+});
+
+function isBalanced(str) {}
